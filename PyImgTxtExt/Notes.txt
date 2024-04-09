@@ -1,0 +1,11 @@
+# PIP PACKAGES TO INSTALL
+
+pip install PyQt5
+
+# QPushButton - connect issue
+
+Open QtCore.pyi
+
+Copy whatever looks like "connect" and "emit" in the class "pyqtBoundSignal"  and paste them in the class "pyqtSignal".
+
+pip install opencv-python
